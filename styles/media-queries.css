@@ -1,0 +1,310 @@
+/**
+ *
+ *
+ *
+ *
+/***************************************************************************/
+/****************************  $Media Queries  *****************************/
+/*
+ * The styles by default are for desktops devices with resolutions
+ * than 1200px of width or more.
+ */
+/**
+ *
+ *
+/*****************  $Medium devices (Desktops) <= 1400px  ******************/
+ @media handheld, only screen and (min-width: 1400px) {
+
+  .pie-chart .pie-chart-custom-text { 
+    margin-top: 63px;
+  }
+
+}
+/**
+ *
+ *
+/*****************  $Medium devices (Desktops) <= 1200px  ******************/
+@media handheld, only screen and (max-width: 1200px) {
+  .features h2 {
+    font-size: 3.3em;
+  }
+  .features .features-item {
+    margin: 20px 0;
+  }
+  .features .device img {
+    height: 120px;
+  }
+  .features .phone {
+    width: 350px;
+  }
+  .navbar-nav>li>a {
+    padding: 20px 0;
+  }
+
+}
+/**
+ *
+ *
+/*****************  $Medium devices (Desktops) <= 1024px  ******************/
+@media handheld, only screen and (max-width: 1024px) {
+  .numbers{
+    background-image: url("../img/video-bg.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 21% 0;
+  }
+  .mbYTP_wrapper{
+    display: none;    
+  }
+  .mb_YTVPlayer{
+    display: none!important;
+  }
+}
+/**
+ *
+ *
+/*******************  $Small devices (Tablets) <= 992px  *******************/
+@media handheld, only screen and (max-width: 992px) {
+  .home h2 {
+    font-size: 3em;
+  }
+  .features .phone {
+    float: none;
+  }
+  .testimonials .owl-theme .owl-controls {
+    bottom: 0px;
+  }
+  .premium-tv .premium-tv-item {
+    width: 320px;
+    padding: 0 15px 13px;
+  }
+  footer .navbar-nav {
+    float: none;
+    text-align: center;
+  }
+  footer .navbar-nav li {
+    float: none;
+    display: inline-block;
+  }
+  footer .social {
+    text-align: center;
+  }
+    .cv-section-title h1:after{
+    left: 0;
+  }
+  .cv-section-title{
+    text-align: left;
+  }
+  .cv-item{
+    padding-left: 0;
+    border-left: none;
+  }
+   .plans h2 {
+    text-align: left;
+  }
+  .plans h6{
+    text-align: left;
+   }
+   .features h2 {
+    margin: 0;
+    text-align: left;
+  }
+  .features h6 {
+    margin: 30px 0px;
+    text-align: left;
+  }
+
+}
+/*
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 768px  *****************/
+@media handheld, only screen and (max-width: 768px) {
+
+  .features h2{
+     font-size: 2.8em;
+    line-height: 1.2em;
+  }
+  .plans h2 {
+    font-size: 2.8em;
+    line-height: 1.2em;
+  }
+  .button{
+    margin: 2em;
+  }  
+  .education{
+    padding-top: 0;
+  } 
+  .features {
+    padding-bottom: 30px;
+  }
+  
+  .features .phone {
+    width: 250px;
+  }
+  .features .device img {
+    height: 75px;
+  }
+  .home {
+    height: 390px;
+  }
+  .home .carousel-inner .item {
+    padding: 5px;
+  }
+  .home h2 {
+    font-size: 1.5em;
+  }
+  .home .btn {
+    margin-top: 2em;
+  }
+  .home .carousel-inner {
+    height: 300px;
+  }
+  .home .carousel-control.right {
+    right: 0;
+  }
+  .home .carousel-control.left {
+    left: 0;
+  }  
+  .knowledge h6{
+    margin-bottom: 0px;
+  }
+  .phone img{
+    margin-bottom: 20px;
+  }
+  .testimonials .item {
+    padding: 40px 10px;
+  }
+  .testimonials figure {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 210px;
+  }
+  .testimonials figure:hover a {
+    height: 200px;
+    line-height: 200px;
+    width: 200px;
+  }
+  .testimonials h2 {
+    text-align: center;
+  }
+  .testimonials .owl-theme .owl-controls {
+    left: 0;
+  }
+  .premium-tv h2, .experience h2, .education h2, .testimonials h2, .knowledge h2 {
+    font-size: 2.7em;
+    line-height: 1.2em;
+  }
+  .premium-tv .premium-tv-item {
+    width: 270px;
+  }
+  .premium-tv .premium-tv-item figure {
+    height: 140px;
+    width: 100px;
+  }
+  .premium-tv .premium-tv-item h3 {
+    font-size: 1em;
+  }
+  .premium-tv .premium-tv-item p {
+    font-size: 0.8em;
+  }
+  .premium-tv .premium-tv-item strong {
+    font-size: 1.3em;
+  }
+  .premium-tv .premium-tv-item strong i {
+    margin: 0 0 0 -10px;
+  }
+
+  .channels {
+    text-align: center;
+  }
+  .form-suscribe .form-control {
+    min-width: 0;
+    width: 100%;
+  }
+  .interest-details{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #01BAFD;
+    margin: 15px 0;
+    background-color: transparent;
+    color: #577285;
+    opacity: 1;
+  }
+  .interests-list li > p{
+    display: none;
+  }
+  .interest-details p{
+    color: #577285;
+  }
+  .interests-list li{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  #skills{
+  padding-top: 10px;
+  }  
+}
+/*
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 768px and max 979px  *****************/
+@media (min-width: 768px) and (max-width: 979px) {
+
+  .pie-chart .pie-chart-custom-text { margin-top: 50px; }
+
+}
+@media (max-width: 767px) {
+
+  .pie-chart .pie-chart-custom-text { margin-top: 58px; }
+
+}
+/*
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 767px  *****************/
+@media handheld, only screen and (max-width: 767px) { 
+
+  header{
+    background-color: #0f283e;
+  }
+  header .navbar-brand img{
+    margin-left: 10px;
+  }
+  .navbar {
+    background-color: #0f283e;
+    width: 100%;
+  }  
+  .navbar .navbar-nav {
+    float: none;
+  }
+  .navbar .navbar-nav li {
+    margin-left: 20px;
+  }
+}
+
+/*
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 414px  *****************/
+@media handheld, only screen and (max-width: 414px) {
+  .col-xs-4{
+    width: 100%;
+  }
+}
+/*
+ *
+ *
+/****************  $Extra Small devices (Phones) <= 320px  *****************/
+@media handheld, only screen and (max-width: 320px) {
+
+  .home h5{
+    margin-top: 1.2em;
+  }
+
+}
