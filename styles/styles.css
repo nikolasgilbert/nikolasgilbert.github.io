@@ -516,6 +516,14 @@ ul {
                 background-color: #24BFF9;
             }
 
+        .btn.btn-social.linkedin {
+            background-color: #4286f4;
+        }
+
+            .btn.btn-social.linkedin i {
+                background-color: #24A9F9;
+            }
+
     .btn.btn-subscribe {
         background-color: #0f283e;
         border: 2px solid #01bafd;
@@ -534,8 +542,8 @@ ul {
 .button--naira {
     padding: 0;
     overflow: hidden;
-    -webkit-transition: background-color 0.3s;
-    transition: background-color 0.3s;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
 }
 
     .button--naira::before {
@@ -672,6 +680,7 @@ ul {
     .button--naira:hover .button__icon {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
+        color: aliceblue;
     }
 
     .button--naira:hover > span {
@@ -990,19 +999,24 @@ ul {
 /****************************  HOME  ****************************/
 
 .home {
-    background-image: url("../img/bg/background1.jpg");
+    background-color: #0f283e;
     background-position: top center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    height: 640px;
+    height: 480px;
     padding-top: 60px;
 }
 
     .home h2 {
         color: #fff;
-        font-size: 4em;
+        font-size: 3em;
+    }
+
+    .home h3 {
+        color: #577285;
+        font-size: 1.9em;
     }
 
     .home h5 {
@@ -1058,6 +1072,10 @@ ul {
         .home .carousel-inner .item {
             margin: 0 auto;
             text-align: center;
+        }
+
+        .home .carousel-inner a:hover {
+            color: aliceblue;
         }
 
 
@@ -2026,7 +2044,7 @@ i.icon-comment-alt2 {
 /*************************  RECOMMENDATIONS  *************************/
 
 .testimonials {
-    background-image: url("../img/bg/background2.jpg");
+    background-color: #0f283e;
     background-position: top center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2127,23 +2145,3 @@ i.icon-comment-alt2 {
         left: 300px;
         position: absolute;
     }
-
-
-/***************************  VIDEOS  ***************************/
-
-.video-yt iframe {
-    height: 310px;
-    width: 100%;
-}
-
-#wrapper_mbYTP_bgndVideo:before {
-    background-image: url("../img/grid.png");
-    background-color: rgba(0,0,0,0.4);
-    content: '';
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
